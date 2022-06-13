@@ -73,4 +73,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception:
-        pass
+        # quiet fail intentional
+        exit()
